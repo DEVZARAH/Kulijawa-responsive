@@ -1,0 +1,415 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+      color:#7A7876;
+}
+ul{
+    list-style: none;
+}
+h2,h1,h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+p, a{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{
+    font-size: 300%;
+}
+p{
+    line-height: 150%;
+    font-size: 100%;
+}
+h2{
+    font-size: 250%;
+}
+h3{
+    font-size: 150%;
+}
+header{
+    top: 0%;
+    width: 100%;
+    padding: 10px;
+}
+header h1{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 10px;
+     color: #0C646D;
+}
+.hamb,.hamb_hamb{
+    float: right;
+    font-size: 30px;
+}
+.hamb{
+    display: none;
+}
+nav{
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   text-align: center;
+}
+.menu a{
+    display:inline-block;
+    padding: 6px;
+
+}
+.navbar {
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
+}
+.hamb_hamb{
+    cursor: pointer;
+    padding: 10px ;
+    padding-top: 0%;
+}
+.hamb:checked ~ nav {
+  max-height: 100%;
+
+}
+#head_col{
+    color: #0C646D;
+}
+.one{
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 10px;
+     margin-right: 10px;
+}
+.one h1{
+    margin-bottom: 4%;
+    font-size: 25px;
+}
+.one p{
+    margin-bottom: 4%;
+     color: #7A7876;
+
+}
+.serv{
+    border: 1px solid #0C646D ;
+    background-color: #0C646D;
+    color: white;
+    padding-top: 3px;
+      padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+.moveimg{
+    margin-top: 30px;
+
+}
+.cuscus{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+.cuscus h2{
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+.same{
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.same p{
+    color: #7A7876;
+}
+.big_divv{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+.work{
+      margin-top: 7%;
+    margin-bottom: 7%;
+}
+.work h3{
+    font-size: 25px;
+    margin-bottom: 5%;
+
+}
+span{
+    color: #0C646D;
+}
+.work p{
+    font-size: 18px;
+    color: #7A7876;
+}
+.section3{
+  margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+.more{
+    margin-bottom: 25px;
+}
+.all{
+    margin: 10px;
+    margin-top: 15px;
+}
+.all .serv{
+    
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.pimg{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.imgg{
+margin-bottom: 0%;
+}
+.section4{
+     margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #0C646D;
+    color: white;
+    text-align: center;
+    padding-bottom: 35px;
+}
+.sec-text h2 ,.sec-text p{
+    margin-bottom: 15px;
+}
+.foot-a{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+      padding-right: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    color: #0C646D;
+}
+
+footer{
+        margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.up-foot{
+    margin-top: 0%;
+    color: #0C646D;
+    border-bottom: 2px solid #7A7876;
+}
+.up-foot p{
+    margin-bottom: 10px;
+}
+i{
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
+.foot{
+    margin-top: 20px;
+
+}
+.foot a{
+    padding-right: 10px;
+}
+.bottom{
+    margin-top: 20px;
+    color: #0C646D;
+}
+#dif{
+    margin-top: 15px;
+    border: 3px solid #0C646D;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #0C646D;
+}
+
+
+.foot-a:hover{
+    background-color: #0C646D;
+    color:rgba(255, 255, 255, 0.356);
+    border-radius: 1000px;
+    border: 2px solid white;
+
+}
+#dif:hover{
+     background-color:#0C646D;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: larger;
+}
+.serv:hover{
+     background-color:#0c646e59;
+    color:black;
+    border-radius: 100px;
+}
+/* nav a:hover{
+    color: #0C646D;
+    font-size: larger;
+} */
+li a{
+    /* color: #0C646D;
+    font-size: larger; */
+
+    border: 2px solid red;
+}
+@media screen and (min-width:992px){
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    }
+    .hamb_hamb{
+        display: none;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+
+    
+    }
+    header h1{
+        font-size: 300%;
+    }
+    .navbar{
+     max-height: 100%;
+    position: relative;
+    top: 0;
+    float: right;
+    width: fit-content;
+  
+    }
+      .menu li {
+    float: left;
+      padding-right: 60px;
+      margin-top: 10px;
+  }
+  #dif{
+      margin-top: 0%;
+      margin-right: 15px;
+  }
+  .second{
+      display: flex;
+      justify-content: space-between;
+
+  }
+  .second h1{
+      font-size: 300%;
+  }
+  .second p{
+    line-height: 150%;
+    font-size: 120%;
+    margin-top: 20px;
+}
+.firstpara{
+    width: 60%;
+}
+.serv{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.image{
+    margin-top: 3%;
+}
+.cuscus h2{
+    font-size: 250%;
+}
+.skill{
+    display: flex;
+    justify-content: space-between;
+}
+.same{
+    width: 30%;
+
+    text-align: left;
+    margin-top: 0%;
+}
+.same p{
+    margin-top: 20px;
+}
+.big_divv{
+    display: flex;
+    justify-content: space-between;
+}
+.stepps,.side_picture{
+    width: 60%;
+    margin-top: 0%;
+}
+.side_picture{
+    width: 100%;
+}
+.step-1,.step-2{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.study{
+    text-align: left;
+    width: 70%;
+    margin-top: 150px;
+}
+.work{
+
+    width: 70%;
+}
+.right{
+    margin-left: 20px;
+}
+.we h2{
+    font-size: 250%;
+}
+.more{
+    display: flex;
+    justify-content: space-between;
+}
+.all{
+    margin-top: 70px;
+}
+.proj{
+    display: flex;
+    justify-content: space-between;
+}
+.pimg{
+    width: 32%;
+}
+.sec-text{
+    padding: 3%;
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.foot-a{
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer{
+    margin-top: 5%;
+}
+.up-foot p{
+    margin-bottom: 30px;
+}
+.up-foot i{
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+.foot a{
+
+    padding-left: 30px;
+}
+
+}
